@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: Baskerville, 'Times New Roman', serif; 
 }
 
 .wrapper {
@@ -18,3 +18,55 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/*////// HEADINGS //////*/
+
+h1 {
+	margin: 0 0 .2em 0;
+    padding: .67em 0;
+    color: #9FADA8;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+h2 {
+	color: #757D78;
+}
+
+/*////// IMAGES //////*/
+
+.main-image, .main-image:hover {
+	border: 4px solid #9DABA6;
+}
+
+img {
+	border: 4px solid #CACCCC;
+}
+
+img:hover {
+	border: 4px solid #515754;
+}
+
+/*////// STRUCTURE //////*/
+
+.copyright {
+	text-align: right;
+}
+
+#parent {
+  text-align: justify;
+  font-size: 0.1px; /* IE 9/10 fix */
+  margin: 0 auto;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+#parent li {
+  display: inline-block;
+}
+
+#parent:after {
+  content: '';
+  width: 100%; /* Ensures justification for single lines */
+  display: inline-block;
+}
